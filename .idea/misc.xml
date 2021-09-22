@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka7001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka7002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka7003/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-book8011/pom.xml" />
+        <option value="$PROJECT_DIR$/sprintcloud-conumser80/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-book8012/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-book8013/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config-server3344/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8.0_221" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

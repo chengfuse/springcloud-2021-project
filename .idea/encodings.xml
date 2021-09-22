@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/springcloud-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-server3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-eureka7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-eureka7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-eureka7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-eureka7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-eureka7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-eureka7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-provider-book8011/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-provider-book8011/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-provider-book8012/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-provider-book8012/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-provider-book8013/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-provider-book8013/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sprintcloud-conumser80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sprintcloud-conumser80/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

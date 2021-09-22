@@ -1,0 +1,22 @@
+server:
+  port: 9527
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7002:7002/eureka,http://eureka7001:7001/eureka,http://eureka7003:7003/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+info:
+  app.name: bdqn-microservicecloud
+  company.name: www.cheng.com
+  build.artifactId: springcloud-zuul-gateway
+  build.version: 0.0.1-SNAPSHOT
+#zuul配置创建代理名字 当前配置访问：localhost:9527/cheng/mybook/+springcloud-consumer的一些服务
+zuul:
+  routes:
+    #springcloud-consumer: /mybook/** #或使用
+    mybook.serviceId: springcloud-consumer
+    mybook.path: /mybook/**  #端口后加入 如： localhost:9527/mybook/getbook/1
+  ignored-services: '*' #忽略使用当前的访问名
+  prefix: /cheng #添加前缀名通常用于公司的名称

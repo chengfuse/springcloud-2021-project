@@ -1,0 +1,32 @@
+﻿#端口号
+server:
+   port: 8011
+#mybatis整合
+spring:
+  application:
+    name: springcloud-book
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#eureka指定注册机
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7002:7002/eureka,http://eureka7003:7003/eureka,http://eureka7001:7001/eureka
+  instance:
+    instance-id: springcloud-book8001
+    prefer-ip-address: true
+info:
+  app.name: microservicecloud
+  company.name: www.springcloud.com
+  build.artifactId: springcloud-provider-book8011
+  build.version: 0.0.1-SNAPSHOT
+#hystrix的actuator/hystrix.stream配置和healthy配置
+#http:/localhost:9001/hystrix 访问
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

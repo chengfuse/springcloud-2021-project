@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springcloud-config-client #引用名称，作为配置文件的文件
+  cloud:
+    config:
+      uri:  http://localhost:3344/
+      label: main
+      profile: config-api #配置文件后面的参数

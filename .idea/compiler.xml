@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-eureka7003" />
+        <module name="springcloud-eureka7001" />
+        <module name="springcloud-api" />
+        <module name="springcloud-eureka7002" />
+        <module name="springcloud-zuul-gateway" />
+        <module name="springcloud-2021-project" />
+        <module name="sprintcloud-conumser80" />
+        <module name="springcloud-hystrix-dashboard" />
+        <module name="springcloud-provider-book8012" />
+        <module name="springcloud-config-server3344" />
+        <module name="springcloud-provider-book8011" />
+        <module name="springcloud-provider-book8013" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
+      <module name="wrapper (3)" target="1.5" />
+      <module name="wrapper (4)" target="1.5" />
+      <module name="wrapper (5)" target="1.5" />
+      <module name="wrapper (6)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-api" options="-parameters" />
+      <module name="springcloud-config-server3344" options="-parameters" />
+      <module name="springcloud-eureka7001" options="-parameters" />
+      <module name="springcloud-eureka7002" options="-parameters" />
+      <module name="springcloud-eureka7003" options="-parameters" />
+      <module name="springcloud-hystrix-dashboard" options="-parameters" />
+      <module name="springcloud-provider-book8011" options="-parameters" />
+      <module name="springcloud-provider-book8012" options="-parameters" />
+      <module name="springcloud-provider-book8013" options="-parameters" />
+      <module name="springcloud-zuul-gateway" options="-parameters" />
+      <module name="sprintcloud-conumser80" options="-parameters" />
+    </option>
+  </component>
+</project>

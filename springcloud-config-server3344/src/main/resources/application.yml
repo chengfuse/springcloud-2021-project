@@ -1,0 +1,16 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chengfuse/springcloud-config.git
+          username: chengfuse@outlook.com
+          password: qW110110110@
+          search-paths: config-api #配置文件仓库路径
+          force-pull: true
+          default-label: main
+         #http://localhost:3344/文件名（不加后缀）/文件后面的数值/分支
